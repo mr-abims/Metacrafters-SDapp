@@ -1,4 +1,5 @@
-## Foundry
+## Metacrafters-SDapp
+A simple that implementation that handles connection between smart contract and frontend
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
 
@@ -27,18 +28,6 @@ $ forge build
 $ forge test
 ```
 
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
 ### Anvil
 
 ```shell
@@ -57,10 +46,10 @@ $ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --pri
 $ cast <subcommand>
 ```
 
-### Help
+### Frontend
 
 ```shell
-$ forge --help
-$ anvil --help
-$ cast --help
+$ cd client
+$ yarn install 
+$ yarn dev
 ```
